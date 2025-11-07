@@ -1,0 +1,97 @@
+# Catula Color Palette
+#
+# Background: 1e1e2e
+# Foreground: d2d8f8
+# Selection: 494959 
+# Current Line: 2d2d3d
+# Red: ff6e6e
+# Orange: e79f6e
+# Yellow: ebdd83
+# Green: 74de7a
+# Purple: b890d3
+# Cyan: 86c5df
+# Pink: e17ab9
+# Gray: 62677f
+
+[colors]
+ansi = [
+    '#1e1e2e',
+    '#ff6e6e',
+    '#74de7a',
+    '#ebdd83',
+    '#b890d3',
+    '#e17ab9',
+    '#86c5df',
+    '#d2d8f8',
+]
+background = '#1e1e2e'
+brights = [
+    '#62677f',
+    '#ff6e6e',
+    '#74de7a',
+    '#ebdd83',
+    '#b890d3',
+    '#e17ab9',
+    '#86c5df',
+    '#ffffff',
+]
+compose_cursor = '#e79f6e'
+cursor_bg = '#d2d8f8'
+cursor_border = '#d2d8f8'
+cursor_fg = '#1e1e2e'
+foreground = '#d2d8f8'
+scrollbar_thumb = '#62677f'
+selection_bg = '#494959' 
+selection_fg = 'rgba(0% 0% 0% 0%)'
+split = '#62677f'
+
+[colors.indexed]
+
+[colors.tab_bar]
+background = '#1e1e2e'
+
+[colors.tab_bar.active_tab]
+bg_color = '#b890d3'
+fg_color = '#1e1e2e'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#1e1e2e'
+fg_color = '#d2d8f8'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '#62677f'
+fg_color = '#d2d8f8'
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#1e1e2e'
+fg_color = '#d2d8f8'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '#e17ab9'
+fg_color = '#d2d8f8'
+intensity = 'Normal'
+italic = true
+strikethrough = false
+underline = 'None'
+
+[metadata]
+aliases = []
+author = 'prankstr'
+name = 'Catula'
+origin_url = 'https://github.com/prankstr/catula'

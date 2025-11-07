@@ -1,0 +1,55 @@
+# Catula Color Palette
+#
+# Background: 1e1e2e
+# Foreground: e0e6ff
+# Red: ff6e6e
+# Orange: e79f6e
+# Yellow: ebdd83
+# Green: 74de7a
+# Purple: b890d3
+# Cyan: 86c5df
+# Pink: e17ab9
+# Gray: 62677f
+
+# Syntax Highlighting Colors
+fish_color_normal e0e6ff
+fish_color_command 7ca6d8
+fish_color_keyword e17ab9
+fish_color_quote 74de7a
+fish_color_redirection e0e6ff
+fish_color_end d2d8f8 
+fish_color_error ff6e6e
+fish_color_param b890d3
+fish_color_comment 62677f
+fish_color_selection --background=62677f
+fish_color_search_match --background=62677f
+fish_color_operator e17ab9 
+fish_color_escape e17ab9
+fish_color_autosuggestion 62677f
+fish_color_cancel ff6e6e --reverse
+fish_color_option 74de7a 
+fish_color_history_current --bold
+fish_color_status ff6e6e
+fish_color_valid_path --underline
+
+# Default Prompt Colors
+fish_color_cwd 74de7a
+fish_color_cwd_root red
+fish_color_host b890d3
+fish_color_host_remote b890d3
+fish_color_user 86c5df
+
+# Completion Pager Colors
+fish_pager_color_progress 62677f
+fish_pager_color_background
+fish_pager_color_prefix 86c5df
+fish_pager_color_completion e0e6ff
+fish_pager_color_description 62677f
+fish_pager_color_selected_background --background=62677f
+fish_pager_color_selected_prefix 86c5df
+fish_pager_color_selected_completion e0e6ff
+fish_pager_color_selected_description 62677f
+fish_pager_color_secondary_background
+fish_pager_color_secondary_prefix 86c5df
+fish_pager_color_secondary_completion e0e6ff
+fish_pager_color_secondary_description 62677f
